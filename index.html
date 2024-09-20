@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Student Data Entry Form</h1>
+        <form>
+            <div>
+                <label>Name: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div style="display: flex;">
+                <label>Gender:</label>
+                <div style="display: flex;">
+                    <div>
+                        <input name="gender" type="radio">
+                        <label>Boy</label>
+                    </div>
+                    <div>
+                        <input name="gender" type="radio">
+                        <label>Girl</label>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div style="display: flex;">
+                <label>Subjects: </label>
+                <div style="display: flex;">
+                    <div style="display: flex;">
+                        <input type="checkbox" />
+                        <div>Tokyo</div>
+                    </div>
+                    <div style="display: flex;">
+                        <input type="checkbox" />
+                        <div>Hokkaido</div>
+                    </div>
+                    <div style="display: flex;">
+                        <input type="checkbox" />
+                        <div>Osaka</div>
+                    </div>
+                    <div style="display: flex;">
+                        <input type="checkbox" />
+                        <div>Fukuoka</div>
+                    </div>
+                    <input type="checkbox" />
+                    <div>Taito</div>
+                </div>
+
+
+            </div>
+            </div>
+            <div>
+                <label>City/Town: </label>
+                <select id="town" name="town">
+                    <option value="obre">Obregon</option>
+                    <option value="mochis">Los Mochis</option>
+                    <option value="mochis">Hermosillo</option>
+                    <option value="mochis">Guasave</option>
+                    <option value="mochis">Culiacan</option>
+                </select>
+            </div>
+            <div>
+                <label>Comments:</label>
+                <textarea></textarea>
+            </div>
+            <input type="reset" value="Clear">
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
